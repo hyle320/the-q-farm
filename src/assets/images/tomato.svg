@@ -1,0 +1,40 @@
+<svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Main tomato body -->
+  <circle cx="75" cy="85" r="50" fill="#FF4444" stroke="#CC0000" stroke-width="2"/>
+
+  <!-- Top indentation -->
+  <path d="M 55 50 Q 60 55 65 52 Q 70 49 75 52 Q 80 49 85 52 Q 90 55 95 50"
+        fill="#E63939" stroke="none"/>
+
+  <!-- Stem and leaves -->
+  <path d="M 75 35 L 75 55" stroke="#2C5F2D" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Leaf 1 (left) -->
+  <path d="M 75 40 Q 60 35 55 42 Q 60 45 75 42" fill="#2ECC40" stroke="#1B7A26" stroke-width="1"/>
+
+  <!-- Leaf 2 (right) -->
+  <path d="M 75 40 Q 90 35 95 42 Q 90 45 75 42" fill="#2ECC40" stroke="#1B7A26" stroke-width="1"/>
+
+  <!-- Leaf 3 (center) -->
+  <path d="M 75 38 Q 72 25 75 20 Q 78 25 75 38" fill="#2ECC40" stroke="#1B7A26" stroke-width="1"/>
+
+  <!-- Leaf 4 (left-center) -->
+  <path d="M 75 39 Q 65 28 62 30 Q 65 35 75 40" fill="#2ECC40" stroke="#1B7A26" stroke-width="1"/>
+
+  <!-- Leaf 5 (right-center) -->
+  <path d="M 75 39 Q 85 28 88 30 Q 85 35 75 40" fill="#2ECC40" stroke="#1B7A26" stroke-width="1"/>
+
+  <!-- Tomato shine/highlight -->
+  <ellipse cx="60" cy="70" rx="18" ry="22" fill="rgba(255, 255, 255, 0.3)"/>
+  <ellipse cx="55" cy="65" rx="10" ry="12" fill="rgba(255, 255, 255, 0.4)"/>
+
+  <!-- Shadows for depth -->
+  <path d="M 100 105 Q 90 125 75 130 Q 60 125 50 105" fill="rgba(0, 0, 0, 0.1)"/>
+
+  <!-- Texture details -->
+  <circle cx="90" cy="75" r="2" fill="rgba(0, 0, 0, 0.1)"/>
+  <circle cx="95" cy="90" r="2" fill="rgba(0, 0, 0, 0.1)"/>
+  <circle cx="85" cy="100" r="2" fill="rgba(0, 0, 0, 0.1)"/>
+  <circle cx="65" cy="105" r="2" fill="rgba(0, 0, 0, 0.1)"/>
+  <circle cx="55" cy="95" r="2" fill="rgba(0, 0, 0, 0.1)"/>
+</svg>
